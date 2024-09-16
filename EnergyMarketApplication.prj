@@ -1,0 +1,257 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3227752740" file="C:\Users\nikos\Documents\MATLAB\Virtual Energy Market WebAppV1.9\EnergyMarketApplication.prj" location="C:\Users\nikos\Documents\MATLAB\Virtual Energy Market WebAppV1.9" name="EnergyMarketApplication" target="target.mlapps" target-name="Package App">
+    <param.appname>EnergyMarketApplication</param.appname>
+    <param.authnamewatermark>Nikolaos Koutantos</param.authnamewatermark>
+    <param.email>nikolaoskoutantos@yahoo.gr</param.email>
+    <param.company />
+    <param.icon>${PROJECT_ROOT}\EnergyMarketApplication_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\EnergyMarketApplication_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\EnergyMarketApplication_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\EnergyMarketApplication_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary />
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\log.jpg</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms>
+      <item>win64</item>
+    </param.platforms>
+    <param.output>C:\Users\nikos\Documents\MATLAB\EnexWebApp</param.output>
+    <param.guid>eb36ce33-537c-424c-89a8-c6e0f314ba24</param.guid>
+    <unset>
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opf_model\display.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opf_model\get_mpc.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opf_model\opf_model.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\add_constraints.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\add_costs.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\add_vars.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\build_cost_params.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\compute_cost.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\describe_idx.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\display.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\get.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\get_cost_params.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\get_idx.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\getN.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\getv.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\linear_constraints.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\opt_model.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\@opt_model\userdata.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\add_userfcn.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\clp_options.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\cplex_options.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\d2AIbr_dV2.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\d2ASbr_dV2.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\d2Ibr_dV2.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\d2Sbr_dV2.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\d2Sbus_dV2.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\dAbr_dV.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\dcopf_solver.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\dIbr_dV.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\dSbr_dV.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\dSbus_dV.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\e2i_data.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\e2i_field.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\ext2int.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\sdp_pf\addToA.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\sdp_pf\combineCost.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\sdp_pf\combineMaxCliques.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\sdp_pf\makeIncidence.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\sdp_pf\makesdpmat.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\sdp_pf\mat2vec.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\sdp_pf\maxCardSearch.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\sdp_pf\prim.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\sdp_pf\recoverFromW.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\sdp_pf\sdp_pf_ver.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\sdp_pf\sdpopf_solver.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\sdp_pf\yalmip_options.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\smartmarket\auction.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\smartmarket\case2off.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\smartmarket\idx_disp.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\smartmarket\off2case.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\smartmarket\pricelimits.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\smartmarket\printmkt.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\smartmarket\runmarket.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\extras\smartmarket\smartmkt.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\fmincopf_solver.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\get_losses.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\get_reorder.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\glpk_options.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\gurobi_options.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\gurobiver.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\hasPQcap.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\have_fcn.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\i2e_data.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\i2e_field.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\idx_brch.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\idx_bus.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\idx_cost.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\idx_dcline.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\idx_gen.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\int2ext.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\ipopt_options.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\ipoptopf_solver.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\isload.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\ktropf_solver.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\loadcase.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\makeAang.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\makeApq.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\makeAvl.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\makeAy.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\makeBdc.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\makeSbus.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\makeSdzip.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\makeYbus.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\mips.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\mipsopf_solver.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\mipsver.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\mosek_options.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\mosek_symbcon.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\most\mostver.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\mplinsolve.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\mpopt2qpopt.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\mpoption.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\mpoption_info_mips.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\mpoption_old.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\mpver.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\nested_struct_copy.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\opf.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\opf_args.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\opf_consfcn.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\opf_costfcn.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\opf_execute.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\opf_hessfcn.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\opf_setup.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\polycost.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\pqcost.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\printpf.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\qps_bpmpd.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\qps_clp.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\qps_cplex.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\qps_glpk.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\qps_gurobi.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\qps_ipopt.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\qps_matpower.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\qps_mips.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\qps_mosek.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\qps_ot.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\remove_userfcn.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\run_userfcn.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\savecase.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\set_reorder.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\toggle_dcline.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\total_load.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\totcost.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\uopf.m</file>
+      <file>C:\Program Files\MATLAB\matpower6.0\update_mupq.m</file>
+      <file>C:\Program Files\MATLAB\OPTI-master\Solvers\clp.m</file>
+      <file>C:\Program Files\MATLAB\OPTI-master\Solvers\clp.mexw64</file>
+      <file>C:\Program Files\MATLAB\OPTI-master\Solvers\glpk.mexw64</file>
+      <file>C:\Program Files\MATLAB\OPTI-master\Solvers\ipopt.m</file>
+      <file>C:\Program Files\MATLAB\OPTI-master\Solvers\ipopt.mexw64</file>
+      <file>C:\Program Files\MATLAB\OPTI-master\Utilities\opti\ipopt_auxdata.m</file>
+      <file>${PROJECT_ROOT}\actualcost.mat</file>
+      <file>${PROJECT_ROOT}\actualcost_entry.m</file>
+      <file>${PROJECT_ROOT}\admin_sign.m</file>
+      <file>${PROJECT_ROOT}\Admin_test.m</file>
+      <file>${PROJECT_ROOT}\br_init.m</file>
+      <file>${PROJECT_ROOT}\case0.m</file>
+      <file>${PROJECT_ROOT}\case39mod.m</file>
+      <file>${PROJECT_ROOT}\gencost_entry.m</file>
+      <file>${PROJECT_ROOT}\gridsetup.m</file>
+      <file>${PROJECT_ROOT}\infround.m</file>
+      <file>${PROJECT_ROOT}\live.m</file>
+      <file>${PROJECT_ROOT}\mailspreview.m</file>
+      <file>${PROJECT_ROOT}\pdchange.m</file>
+      <file>${PROJECT_ROOT}\plotarei.m</file>
+      <file>${PROJECT_ROOT}\plPol.m</file>
+      <file>${PROJECT_ROOT}\pr_sql.m</file>
+      <file>${PROJECT_ROOT}\profit.m</file>
+      <file>${PROJECT_ROOT}\recep.m</file>
+      <file>${PROJECT_ROOT}\roundsum.m</file>
+      <file>${PROJECT_ROOT}\roundsumtab.m</file>
+      <file>${PROJECT_ROOT}\saca_sql.m</file>
+      <file>${PROJECT_ROOT}\semail.m</file>
+      <file>${PROJECT_ROOT}\sh.m</file>
+      <file>${PROJECT_ROOT}\sql.m</file>
+      <file>${PROJECT_ROOT}\trun.m</file>
+      <file>${PROJECT_ROOT}\users_sign.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\Drawing1.jpg</file>
+      <file>${PROJECT_ROOT}\log.jpg</file>
+      <file>${PROJECT_ROOT}\mysql-connector-java-8.0.16.jar</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\nikos\Documents\MATLAB" name="EnexWebApp" optional="false">C:\Users\nikos\Documents\MATLAB\EnexWebApp</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2018b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
